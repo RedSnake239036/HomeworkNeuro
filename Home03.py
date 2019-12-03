@@ -106,7 +106,7 @@ if d >= 0 and d % 2 == 0:
 
 #часть 2
 #1
-x = [1, 2, 3, 3, 6, 111, 111]
+x = [2, 2, 3, 3, 6, 22, 111, 111]
 inp = 5
 razn = max(x)
 numb = 0
@@ -119,9 +119,23 @@ print('Часть 2, номер 1: ', numb - 1)
 xmax = max(x)
 xmin = min(x)
 #x = [str(x[j]) for j in x]
-for i in range(len(x)):
-    x[i] = str(x[i])
-y = ' '.join(x)
-y = y.count(str(xmax))
+#for i in range(len(x)):
+ #   x[i] = str(x[i])
+#y = ' '.join(x)
+y = x.count(xmax)
 print('Часть 2, номер 2: ', y)
+#3
+y = x.count(xmin)
+print('Часть 2, номер 3: ', y)
 
+#часть 3
+#1
+x = 123456
+lst = []
+for i in range(len(str(x)) - 1, -1, -1):
+    lst.append(str(x)[i])
+lst = ''.join(lst)
+print('Часть 3, задание 1', lst)
+#
+x = 277
+print(bin(x))
