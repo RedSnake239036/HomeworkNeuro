@@ -55,6 +55,7 @@ print('Задание 9: ', round(lst[0], 3), round(lst[1], 3), round(lst[2], 3)
 x = 1
 y = 2
 z = 3
+print('Задание 14: ')
 if (x > 5) and (x < 13) and (x % 2 == 0):
     print(x)
 
@@ -65,6 +66,7 @@ if (z > 5) and (z < 13) and (z% 2 == 0):
     print(z)
 
 #15
+print('Задание 15: ')
 if (x > -20) and (x < -8):
     print(x)
 
@@ -75,4 +77,50 @@ if (z > -20) and (z < -8):
     print(z)
 
 #16
+a = 1
+b = 2
+c = 3
+d = 4
+if a * b >= c * d:
+    print('Задание 16: ', a * b * c * d)
+else:
+    print('Задание 16: ', a * a + b * b + c * c + d * d)
 
+#17
+a = 1
+b = 2
+c = 3
+d = 4
+print('Задание 17')
+if a >= 0 and a % 2 == 0:
+    print(a**0.5)
+
+if b >= 0 and b % 2 == 0:
+    print(b**0.5)
+
+if c >= 0 and c % 2 == 0:
+    print(c**0.5)
+
+if d >= 0 and d % 2 == 0:
+    print(d**0.5)
+
+#часть 2
+#1
+x = [1, 2, 3, 3, 6, 111, 111]
+inp = 5
+razn = max(x)
+numb = 0
+for i in range(len(x)):
+    if razn > inp - x[i]:
+        razn = inp - x[i]
+        numb = i
+print('Часть 2, номер 1: ', numb - 1)
+#2
+xmax = max(x)
+xmin = min(x)
+#x = [str(x[j]) for j in x]
+for i in range(len(x)):
+    x[i] = str(x[i])
+y = ' '.join(x)
+y = y.count(str(xmax))
+print('Часть 2, номер 2: ', y)

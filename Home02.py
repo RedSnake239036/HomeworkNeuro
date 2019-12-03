@@ -91,3 +91,5 @@ print('задание 14', int(str(x)[0]) + int(str(x)[1]) == int(str(x)[1]) + i
 print('задание 15', x**0.5 == int(str(x)[0]) ** 2 + int(str(x)[1]) ** 2 + int(str(x)[2]) ** 2)
 #16
 print('задание 16', str(x)[0] != str(x)[1] != str(x)[2])
+#17
+print
