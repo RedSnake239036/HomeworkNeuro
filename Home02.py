@@ -52,6 +52,7 @@ c = 5
 print('задание 13', a >= b >= c or a <= b <= c)
 #2.2
 #1
+x = 1234
 summ = 1
 summ *= int(str(x)[0]) * int(str(x)[1]) * int(str(x)[2]) * int(str(x)[3])
 print('задание  1', bool(summ % 2))
@@ -59,7 +60,7 @@ print('задание  1', bool(summ % 2))
 k = 4
 print('задание  2', '5' in str(k))
 #3
-x = 2
+x = 234
 print('задание  3', x*x == (int(str(x)[0]) + int(str(x)[1]) + int(str(x)[2])**5))
 #4
 x = 234
@@ -74,22 +75,29 @@ print('задание  6', x % int(str(x)[1]) == 0)
 x = 235
 print('задание  7', int(str(x)[0]) % 2 == 0 and int(str(x)[1]) % 2 == 0 and int(str(x)[2]) % 2 == 0 )
 #8
+x = 123
 print('задание  8', (int(str(x)[0]) + int(str(x)[1]) + int(str(x)[2])) % 5 == 0)
 #9
+x = 345
 print('задание  9', int(str(x)[0]) == int(str(x)[-1]))
 #10
+x = 345
 print('задание 10', int(str(x)[0]) == int(str(x)[1]) == int(str(x)[2]))
 #11
+x = 345
 print('задание 11', int(str(x)[0]) > int(str(x)[-1]))
 #12
+x = 345
 print('задание 12', int(str(x)[1]) > int(str(x)[-1]) + int(str(x)[0]))
 #13
-print('задание 13', 7 in str(x))
+x = 376
+print('задание 13', '7' in str(x))
 #14
+x = 232
 print('задание 14', int(str(x)[0]) + int(str(x)[1]) == int(str(x)[1]) + int(str(x)[2]))
 #15
+x = 343
 print('задание 15', x**0.5 == int(str(x)[0]) ** 2 + int(str(x)[1]) ** 2 + int(str(x)[2]) ** 2)
 #16
+x = 565
 print('задание 16', str(x)[0] != str(x)[1] != str(x)[2])
-#17
-print

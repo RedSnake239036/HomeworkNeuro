@@ -124,3 +124,4 @@ for i in range(len(x)):
 y = ' '.join(x)
 y = y.count(str(xmax))
 print('Часть 2, номер 2: ', y)
+
